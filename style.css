@@ -1,4 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: cornflowerblue;
     background-color: black;
+}
+h2{
+    color: antiquewhite;
+    background-color: brown;
+}
+
+/* article > p{     font-size: 25px;
+} specific change eg #1 */
+
+.footer_p{
+    color: cornflowerblue;
+    background-color: black;
+}
+
+.article_p{
+    font-size: 1.5rem;
+}
+
+ul{
+    background-color: tan;
+}
+
+li{
+    background-color: blueviolet;
+}
+
+li:nth-child(3){
+    color: yellowgreen;
+}
+
+img{
+    max-width: 58vw;
 }
